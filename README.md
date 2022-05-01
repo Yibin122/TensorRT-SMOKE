@@ -45,7 +45,7 @@ This repo deploys [SMOKE](https://github.com/open-mmlab/mmdetection3d/tree/maste
    cmake ..
    make && ./smoke_trt
    ```
-   ![kitti_000008_pred](samples/kitti_000008_pred.png)
+   ![kitti_000008_pred](./samples/kitti_000008_pred.png)
 
 ## TODO
 - [ ] MonoFlex
