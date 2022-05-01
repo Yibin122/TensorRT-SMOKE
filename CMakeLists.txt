@@ -13,8 +13,8 @@ include_directories(
 )
 
 add_executable(${PROJECT_NAME}
-  smoke_test.cc
   smoke.cc
+  main.cc
 )
 
 target_link_libraries(${PROJECT_NAME}
