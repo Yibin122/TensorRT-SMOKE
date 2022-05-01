@@ -27,7 +27,7 @@ This repo deploys [SMOKE](https://github.com/open-mmlab/mmdetection3d/tree/maste
   ```
 
 ## Steps
-1. Export ONNX (first comment [code](https://github.com/open-mmlab/mmdetection3d/blob/master/mmdet3d/models/dense_heads/smoke_mono3d_head.py#L107-112) in `mmdet3d/models/dense_heads/smoke_mono3d_head.py`)
+1. Export ONNX (first comment [code](https://github.com/open-mmlab/mmdetection3d/blob/master/mmdet3d/models/dense_heads/smoke_mono3d_head.py#L107-L112) in `mmdet3d/models/dense_heads/smoke_mono3d_head.py`)
    ```bash
    cd mmdetection3d
    python smoke_pth2onnx.py  # smoke_dla34.onnx
